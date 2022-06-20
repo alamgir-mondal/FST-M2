@@ -23,7 +23,7 @@ public class RestAssuredProject {
         // Create request specification
         requestSpec = new RequestSpecBuilder()
                 .setContentType(ContentType.JSON)
-                .addHeader("Authorization","token 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")
+                .addHeader("Authorization","token xxxxxxxxxxxxxxxxxxxxxxxxxxxx")
                 .setBaseUri("https://api.github.com")
                 .build();
 
